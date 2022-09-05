@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+css {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(54, 77, 204);
+  background: linear-gradient(176deg, rgba(54, 77, 2041) 0%, rgba(19, 35, 124, 1) 100%);
+}
+
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50px;
+  border: 3px solid white;
+  box-shadow: 0 0 20px white;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.social img {
+  width: 33px;
+}
+
+.links-list {
+  list-style: none;
+}
+
+.links-list li {
+  margin: 10px 20px;
+}
+
+.links-list li a {
+  display: block;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgb(54, 77, 204);
+  font-weight: bold;
+}
+
+.links-list li a span {
+  color: grey;
+  display: block;
+  margin-top: 10px;
+}
